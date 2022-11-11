@@ -1,16 +1,12 @@
-for (let n=100;n<=200;n++) {
-  if (!(n % 3) && !(n % 4)) {
-    console.log("LoopyLighthouse");
-  } else if (!(n % 3)) {
-    console.log("Loopy");
-  } else if (!(n % 4)) {
-    console.log("Lighthouse");
-  } else {
-    console.log(n);
-  }
-}
+// (6 , 18,  3)
 
-var x = 1;
+let array = [];
+for (let n = 6; n <= 18; n += 3) {
+  array.push(n);
+}
+console.log(array);
+
+/* var x = 1;
 
 function addTwo() {
   x = x + 2;
@@ -18,4 +14,4 @@ function addTwo() {
 
 addTwo();
 x = x + 1;
-console.log(x);
+console.log(x); */
